@@ -1,0 +1,5 @@
+bucket_name       = "my-unique-secure-bucket-12345"
+resource_group_id = "REPLACE_ME"
+reader_emails     = ["reader@example.com"]
+writer_emails     = ["writer@example.com"]
+# Pass the API key via: export TF_VAR_ibmcloud_api_key=...
